@@ -45,7 +45,6 @@ train['Fare'].hist(color='green',bins=40,figsize=(8,4))
 
 #Checking the average age by passenger class !
 plt.figure(figsize=(12, 7))
-
 sns.boxplot(x='Pclass',y='Age',data=train,palette='winter')
 
 #We can see the wealthier passengers in the higher classes tend to be older, which makes sense. We'll use these above output of average age values to impute based on Pclass for Age !
