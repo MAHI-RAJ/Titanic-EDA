@@ -122,6 +122,8 @@ accuracy
 
 from sklearn.metrics import accuracy_score
 
+accuracy
+
 predictions
 
 ##let's Evaluate our Model  !!
