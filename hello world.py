@@ -4,6 +4,8 @@ def abcd():
     x="beautiful"
     print(x)
 
+    
+
 abcd()
 print(x)
 
